@@ -1,0 +1,52 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# FastAPI specific
+instance/
+.webassets-cache
+
+# SQLAlchemy specific (if using SQLite database)
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+*.env
+
+# Pytest cache
+.cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment variables file
+.env
+
+# MySQL or PostgreSQL database dumps
+*.sql
+
+# Python virtual environments
+virtualenv/
+
+# Pipenv
+Pipfile.lock
+
+# Docker
+docker-compose.yml
+Dockerfile
+
+# Other generated files
+*.bak
+*.swp
