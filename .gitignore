@@ -43,10 +43,6 @@ virtualenv/
 # Pipenv
 Pipfile.lock
 
-# Docker
-docker-compose.yml
-Dockerfile
-
 # Other generated files
 *.bak
 *.swp
