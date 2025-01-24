@@ -3,7 +3,7 @@
 - [Docker](https://www.docker.com/products/docker-desktop) 
 - [Docker Compose](https://docs.docker.com/compose/)
 Шаги для развертывания
-1. Клонируйте репозиторий: ```bash git clone https://github.com/yourusername/your-repository.git cd your-repository ```
+1. Клонируйте репозиторий
 2. Создайте и запустите контейнеры: ```bash docker-compose up --build ```
 3. Выполните миграции базы данных с использованием Alembic: ```bash docker-compose exec app bash alembic upgrade head ``` 
 4. Приложение будет доступно по адресу: ``` http://localhost:8000 ``` 
